@@ -1,7 +1,7 @@
 # Projeto Node.js de Gerenciamento de Tasks
 Este projeto consiste em um servidor Node.js que utiliza bibliotecas internas para criar um ambiente de gerenciamento de tarefas (tasks) com as operações básicas de consulta, criação, atualização e exclusão. O projeto também inclui a capacidade de filtrar tarefas por título e/ou descrição. Além disso, há a implementação de um middleware para transformar o corpo da requisição em JSON e configurar o cabeçalho "Content-Type" como "application/json".
 
-Estrutura do Projeto
+## Estrutura do Projeto
 Middleware
 Na pasta middlewares, existe um arquivo chamado json.js. Esse middleware é responsável por transformar o corpo da requisição em JSON e definir o cabeçalho "Content-Type" como "application/json".
 
