@@ -1,5 +1,4 @@
 import fs from "node:fs/promises"
-import { title } from "node:process"
 
 const databasePath = new URL('../db.json', import.meta.url)
 
