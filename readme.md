@@ -76,17 +76,23 @@ Abaixo contém imagens para referencia de funcionamento, o HTTP Client usado foi
 
 - GET sem parâmetros
 
-![GET](https://i.imgur.com/PWN1yZj.png)
+   ![GET](https://i.imgur.com/PWN1yZj.png)
 
 - GET com parâmetros
-- 
-![GETParams](https://i.imgur.com/WQrESmM.png)
+ 
+   ![GETParams](https://i.imgur.com/WQrESmM.png)
+
 - UPDATE
 A task que foi realizada o update foi a mesma da imagem "GET com parâmetros"
-![PUT](https://i.imgur.com/kI1zOSG.png)
+
+   ![PUT](https://i.imgur.com/kI1zOSG.png)
+
 Task após update
-![NEWPUT](https://i.imgur.com/URVYzd9.png)
+
+   ![NEWPUT](https://i.imgur.com/URVYzd9.png)
+
 - PATCH
+
 Apesar do PATCH não trazer nenhuma mensagem, como mencionado acima, ele preenche o campo "completedAt"
 ![PATCH](https://i.imgur.com/bvXF9bI.png)
 - DELETE
