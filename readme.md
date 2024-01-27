@@ -68,6 +68,24 @@ node streams/import-csv.js
 Com isso, o script irá ler os dados do CSV e importá-los para o banco de dados.
 
 # Funcionamento
-## Respostas para cada rota
+Abaixo contém imagens para referencia de funcionamento, o HTTP Client usado foi o HTTPie.
+## Imagens
 - POST
 ![Resposta do POST](https://i.imgur.com/fb8eoeD.png)
+- GET sem parâmetros
+![GET](https://i.imgur.com/PWN1yZj.png)
+- GET com parâmetros
+![GETParams](https://i.imgur.com/WQrESmM.png)
+- UPDATE
+A task que foi realizada o update foi a mesma da imagem "GET com parâmetros"
+![PUT](https://i.imgur.com/kI1zOSG.png)
+Task após update
+![NEWPUT](https://i.imgur.com/URVYzd9.png)
+- PATCH
+Apesar do PATCH não trazer nenhuma mensagem, como mencionado acima, ele preenche o campo "completedAt"
+![PATCH](https://i.imgur.com/bvXF9bI.png)
+- DELETE
+Ao deletar, o servidor envia a seguinte mensagem
+![DELETE](https://i.imgur.com/bN9QKN3.png)
+E se tentarmos realizar alguma operação nessa task em especifico obteremos a seguinte mensagem
+![NEWDELETE](https://i.imgur.com/47WBnlF.png)
