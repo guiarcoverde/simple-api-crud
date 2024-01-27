@@ -99,6 +99,7 @@ Apesar do PATCH não trazer nenhuma mensagem, como mencionado acima, ele preench
 ![PATCH](https://i.imgur.com/bvXF9bI.png)
 
 - DELETE
+
    Ao deletar, o servidor envia a seguinte mensagem
   
 ![DELETE](https://i.imgur.com/bN9QKN3.png)
