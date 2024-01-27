@@ -104,4 +104,5 @@ Apesar do PATCH não trazer nenhuma mensagem, como mencionado acima, ele preench
 ![DELETE](https://i.imgur.com/bN9QKN3.png)
 
    E se tentarmos realizar alguma operação nessa task em especifico obteremos a seguinte mensagem
+   
 ![NEWDELETE](https://i.imgur.com/47WBnlF.png)
