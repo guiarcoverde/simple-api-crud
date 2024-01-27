@@ -71,10 +71,15 @@ Com isso, o script irá ler os dados do CSV e importá-los para o banco de dados
 Abaixo contém imagens para referencia de funcionamento, o HTTP Client usado foi o HTTPie.
 ## Imagens
 - POST
+   
 ![Resposta do POST](https://i.imgur.com/fb8eoeD.png)
+
 - GET sem parâmetros
+
 ![GET](https://i.imgur.com/PWN1yZj.png)
+
 - GET com parâmetros
+- 
 ![GETParams](https://i.imgur.com/WQrESmM.png)
 - UPDATE
 A task que foi realizada o update foi a mesma da imagem "GET com parâmetros"
