@@ -88,16 +88,20 @@ Abaixo contém imagens para referencia de funcionamento, o HTTP Client usado foi
 
    ![PUT](https://i.imgur.com/kI1zOSG.png)
 
-Task após update
+   Task após update
 
    ![NEWPUT](https://i.imgur.com/URVYzd9.png)
 
 - PATCH
 
 Apesar do PATCH não trazer nenhuma mensagem, como mencionado acima, ele preenche o campo "completedAt"
+
 ![PATCH](https://i.imgur.com/bvXF9bI.png)
+
 - DELETE
-Ao deletar, o servidor envia a seguinte mensagem
+   Ao deletar, o servidor envia a seguinte mensagem
+  
 ![DELETE](https://i.imgur.com/bN9QKN3.png)
-E se tentarmos realizar alguma operação nessa task em especifico obteremos a seguinte mensagem
+
+   E se tentarmos realizar alguma operação nessa task em especifico obteremos a seguinte mensagem
 ![NEWDELETE](https://i.imgur.com/47WBnlF.png)
