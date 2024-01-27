@@ -68,5 +68,6 @@ node streams/import-csv.js
 Com isso, o script irá ler os dados do CSV e importá-los para o banco de dados.
 
 # Funcionamento
-Ao usar o rest client de sua preferencia, essas serão as respostas obtidas
+## Respostas para cada rota
+- POST
 ![Resposta do POST](https://i.imgur.com/fb8eoeD.png)
