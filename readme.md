@@ -83,7 +83,8 @@ Abaixo contém imagens para referencia de funcionamento, o HTTP Client usado foi
    ![GETParams](https://i.imgur.com/WQrESmM.png)
 
 - UPDATE
-A task que foi realizada o update foi a mesma da imagem "GET com parâmetros"
+
+   A task que foi realizada o update foi a mesma da imagem "GET com parâmetros"
 
    ![PUT](https://i.imgur.com/kI1zOSG.png)
 
