@@ -1,21 +1,21 @@
-## Projeto Node.js de Gerenciamento de Tasks
+# Projeto Node.js de Gerenciamento de Tasks
 Este projeto consiste em um servidor Node.js que utiliza bibliotecas internas para criar um ambiente de gerenciamento de tarefas (tasks) com as operações básicas de consulta, criação, atualização e exclusão. O projeto também inclui a capacidade de filtrar tarefas por título e/ou descrição. Além disso, há a implementação de um middleware para transformar o corpo da requisição em JSON e configurar o cabeçalho "Content-Type" como "application/json".
 
-## Estrutura do Projeto
-Middleware
+# Estrutura do Projeto 
+## Middleware
 Na pasta middlewares, existe um arquivo chamado json.js. Esse middleware é responsável por transformar o corpo da requisição em JSON e definir o cabeçalho "Content-Type" como "application/json".
 
-# Utils
+## Utils
 Na pasta utils, há dois arquivos:
 
 build-route-params.js: Utiliza expressões regulares (Regex) para identificar se há ou não algum parâmetro na rota.
 
 extract-query-params.js: Extrai informações da query na API.
 
-# Streams
+## Streams
 Há uma pasta chamada streams que utiliza o conceito de streams do Node.js para ler um arquivo CSV e realizar uma requisição POST baseada no conteúdo do CSV.
 
-# Arquivos da Pasta src
+## Arquivos da pasta src
 database.js: Este script cria um arquivo na pasta raiz chamado "db.json" e executa operações de extração, inserção, exclusão e atualização de dados no JSON.
 
 routes.js: Contém quatro rotas principais:
@@ -32,7 +32,7 @@ routes.js: Contém quatro rotas principais:
 
 - server.js: O arquivo principal que cria um servidor HTTP usando o módulo http do Node.js. Este servidor utiliza os middlewares json e extractQueryParams, e as rotas definidas no arquivo routes.js são mapeadas e tratadas de acordo com as requisições recebidas.
 
-## Como executar o projeto
+# Como executar o projeto
 Primeiro, clone o repositório com o comando:
 ```console
 git clone https://github.com/guiarcoverde/simple-api-crud.git
