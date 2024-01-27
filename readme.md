@@ -72,7 +72,7 @@ Abaixo contém imagens para referencia de funcionamento, o HTTP Client usado foi
 ## Imagens
 - POST
    
-![Resposta do POST](https://i.imgur.com/fb8eoeD.png)
+   ![Resposta do POST](https://i.imgur.com/fb8eoeD.png)
 
 - GET sem parâmetros
 
@@ -94,16 +94,16 @@ Abaixo contém imagens para referencia de funcionamento, o HTTP Client usado foi
 
 - PATCH
 
-Apesar do PATCH não trazer nenhuma mensagem, como mencionado acima, ele preenche o campo "completedAt"
+  Apesar do PATCH não trazer nenhuma mensagem, como mencionado acima, ele preenche o campo "completedAt"
 
-![PATCH](https://i.imgur.com/bvXF9bI.png)
+  ![PATCH](https://i.imgur.com/bvXF9bI.png)
 
 - DELETE
 
    Ao deletar, o servidor envia a seguinte mensagem
   
-![DELETE](https://i.imgur.com/bN9QKN3.png)
+   ![DELETE](https://i.imgur.com/bN9QKN3.png)
 
    E se tentarmos realizar alguma operação nessa task em especifico obteremos a seguinte mensagem
    
-![NEWDELETE](https://i.imgur.com/47WBnlF.png)
+   ![NEWDELETE](https://i.imgur.com/47WBnlF.png)
